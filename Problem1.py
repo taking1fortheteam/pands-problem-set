@@ -1,4 +1,4 @@
-# Aidan Conlon - 20 MArch 2019
+# Aidan Conlon - 20 March 2019
 # This is the solution to Problem 1
 # A Program that asks the user to input any positive integer and outputs the
 # sum of all numbers between one and that number.
