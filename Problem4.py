@@ -17,10 +17,10 @@ try:                                                    # Use Try to see if valu
             quit()                                              # then quit
         if y %2 != 0:                                   # If y is divisible by 2 with a denominator 
             y = ((y * 3) + 1)                               # multiply y by 3 and add 1
-            print(y)                                        # print new value of y to screen
+            print(int(y) , end=" ")                                        # print new value of y (with no decimal point (int)) to screen with no carriage return, rather a space for next value
         if y %2 == 0:                                   # If y is divisible by 2 with no denominator then 
             y = y / 2                                       # divide y by 2
-            print(y)                                        # and print this new value to screen
+            print(int(y) , end =" ")                                        # and print this new value (with no decimal point (int)) to screen with no carriage return, rather a space for next value
 
 except ValueError:                                      # The Try Exception means that the value entered is not an integer so
     print("That is not an integer")                         # Print to screen it is not an integer and 
