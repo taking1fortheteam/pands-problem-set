@@ -24,11 +24,11 @@ try:                                                    # Use Try to see if valu
             elif y % i == 0:                                # if we dont have a remainder
                 i = i + 1                                       # i still gets incremented 
                 z = z + 1                                       # z also gets incremented - only if the value entered by user is divisible by an int 
-        if x >= 2 and z == 2:                              # if x > 2 then the value entered has been divisible by more than  1 and itself. and the number is not a prime
-                                                        # AND z == 2 (z will be incremented to 2 because it is divisible by 1 and itself - therefore a prime)
-            print("The number is a Prime")                  # print to screen that the number is a prime
-        else:                                           # or else
-            print("The number is not a prime")              # print to screen that the value is not a prime
+        if x >= 2 and z == 2:                               # if x > 2 then the value entered has been divisible by more than  1 and itself. and the number is not a prime
+                                                            # AND z == 2 (z will be incremented to 2 because it is divisible by 1 and itself - therefore a prime)
+            print("The number is a Prime")                      # print to screen that the number is a prime
+        else:                                               # or else
+            print("The number is not a prime")                  # print to screen that the value is not a prime
 
 except ValueError:                                      # The Try Exception means that the value entered is not an integer so
     print("That is not an integer")                         # Print to screen it is not an integer and 
