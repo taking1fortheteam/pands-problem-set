@@ -1,0 +1,17 @@
+This is line 1
+This is line 2
+This is line 3
+This is line 4
+This is line 5
+This is line 6
+This is line 7
+This is line 8
+This is line 9
+This is line 10
+This is line 11
+This is line 12
+SO this is not the 1st or the 2nd but the 13th line in my bleeding test script! I really hatethis programming language as ther ara so many ways to do the same thing! It is a real annoyance!
+But then again it is an intereetingly powerful language!]
+I hope I can get good at using it.
+The join function will concatenate a list of strings. But since a in your case is int, you create a list of strings of elements in a using the map function. The map function will apply a function across all elements in a list. In this case, I am using str function to convert the integer into string.
+
